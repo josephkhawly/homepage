@@ -18,11 +18,13 @@ ul.border {
 h1 {
     text-align: center;
     margin: 7% auto;
+    font-size: 30px;
 }
 ul {
 	display: block;
 	width: 50%;
 	margin: 7% auto;
+    font-family: 'Open Sans', sans-serif;
 	padding: 0;
 	list-style: none;
 	text-align: center;
