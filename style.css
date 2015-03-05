@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	overflow: hidden;
 	font-size: 10pt;
 }
@@ -15,7 +15,7 @@ ul.border {
 	box-shadow: 0px 0px 2px #000;
 }
 
-p {
+h1 {
     text-align: center;
     margin: 7% auto;
 }
