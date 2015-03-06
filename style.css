@@ -1,7 +1,7 @@
 body {
-	background: url('back3.png');
+	background: url('best-girl2.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
@@ -17,8 +17,7 @@ ul.border {
 
 h1 {
     text-align: center;
-    margin: 7% auto;
-    font-size: 30px;
+    margin: 4% auto;
 }
 ul {
 	display: block;
