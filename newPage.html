@@ -8,7 +8,7 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway|Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-        <h1 style=" color: black;"> Welcome back, Joseph. Where shall we go today?</h1>
+        <h1 style=" color: black;" id="greeting"> Welcome back, Joseph. Where shall we go today?</h1>
 		<ul class="border">
 			<li><a class="parent1" href="#">Google</a>
 				<ul class="subMenu">
@@ -105,6 +105,25 @@
 					$("ul",this).slideToggle('slow');
 				}
 			);
+            
+            var date = new Date();
+            var hour = date.getHours();
+            
+            if (hour >= 22 || hour <= 5) {
+                document.getElementById("greeting").innerHTML = 
+                    "Good evening, Joseph. What the hell are you up to at this ungodly hour?";
+            } else if (hour >= 6 && hour >= 11) {
+                document.getElementById("greeting").innerHTML = 
+                    "Good morning, Joseph. Did you sleep well?";
+            } else if (hour >= 12 && hour <= 19) {
+                document.getElementById("greeting").innerHTML = 
+                    "Good afternoon, Joseph. Let's get some work done today.";
+            }
+            
+            
+            //This statement changes the text at the top of the page depending on the time of day.
+            
+            
 		</script>
 	</body>
 </html>
