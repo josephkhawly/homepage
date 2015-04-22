@@ -2,6 +2,8 @@
 ![screenshot](https://raw.githubusercontent.com/josephkhawly/homepage/master/screenshot.png)
 This is a replacement for the default startpage in Chrome and Firefox. Feel free to clone or fork it and adjust it to your liking by adding/removing links and changing the background, fonts and colors.
 
+The text at the top will change depending on the time of day.
+
 # Setup
 ## Chrome
 - Install the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en) extension
