@@ -4,6 +4,8 @@ This is a replacement for the default startpage in Chrome and Firefox. Feel free
 
 The text at the top will change depending on the time of day.
 
+Check out a live demo [here](http://josephkhawly.com/homepage)
+
 # Setup
 ## Chrome
 - Install the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en) extension
