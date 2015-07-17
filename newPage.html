@@ -55,6 +55,15 @@
 					<li><a class="tab1" href="http://www.materialpalette.com/">Material Pallette</a></li>
 				</ul>
 			</li>
+            <li><a class="parent1" href="#">iOS</a>
+				<ul class="subMenu">
+					<li><a class="tab1" href="https://developer.apple.com/">Apple Developer</a></li>
+					<li><a class="tab1" href="http://www.raywenderlich.com/">Ray Wenderlich</a></li>
+					<li><a class="tab1" href="https://cocoapods.org/">CocoaPods</a></li>
+					<li><a class="tab1" href="http://nshipster.com/">NSHipster</a></li>
+					<li><a class="tab1" href="http://www.objc.io/">objc.io</a></li>
+				</ul>
+			</li>
             <li><a class="parent1" href="#">Pebble</a>
 				<ul class="subMenu">
 					<li><a class="tab1" href="https://developer.getpebble.com/">Pebble Developers</a></li>
@@ -109,13 +118,13 @@
             var date = new Date();
             var hour = date.getHours();
             
-            if (hour >= 22 || hour <= 5) {
+            if (hour >= 23 || hour <= 5) {
                 document.getElementById("greeting").innerHTML = 
                     "Good evening, Joseph. What the hell are you up to at this ungodly hour?";
             } else if (hour >= 6 && hour <= 11) {
                 document.getElementById("greeting").innerHTML = 
                     "Good morning, Joseph. Did you sleep well?";
-            } else if (hour >= 12 && hour <= 19) {
+            } else if (hour >= 12 && hour <= 21) {
                 document.getElementById("greeting").innerHTML = 
                     "Good afternoon, Joseph. Let's get some work done today.";
             }
