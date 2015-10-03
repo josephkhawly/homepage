@@ -6,9 +6,19 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'SF-UI-Display';
 	overflow: hidden;
 	font-size: 10pt;
+}
+
+@font-face{
+    font-family: SF-UI-Display;
+    src: url("fonts/SF-UI-Display-Ultralight.otf") format("opentype");
+}
+    
+@font-face{
+    font-family: SF-UI-Text;
+    src: url("fonts/SF-UI-Display-Thin.otf") format("opentype");
 }
 
 ul.border {
@@ -23,7 +33,7 @@ ul {
 	display: block;
 	width: 50%;
 	margin: 7% auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-UI-Text', sans-serif;
 	padding: 0;
 	list-style: none;
 	text-align: center;
