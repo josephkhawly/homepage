@@ -49,7 +49,6 @@
 					<li><a class="tab1" href="http://web.airdroid.com/">AirDroid</a></li>
 					<li><a class="tab1" href="http://www.decompileandroid.com/">APK decompiler</a></li>
 					<li><a class="tab1" href="http://apps.evozi.com/apk-downloader/">APK downloader</a></li>
-					<li><a class="tab1" href="http://boards.4chan.org/x/">MaterialUp</a></li>
 					<li><a class="tab1" href="http://www.androidpolice.com/">Android Police</a></li>
 					<li><a class="tab1" href="http://www.materialpalette.com/">Material Pallette</a></li>
 				</ul>
@@ -112,7 +111,7 @@
             var date = new Date();
             var hour = date.getHours();
             
-            if (hour >= 23 || hour <= 5) {
+            if (hour >= 22 || hour <= 5) {
                 document.getElementById("greeting").innerHTML = 
                     "Good evening, Joseph. What the hell are you up to at this ungodly hour?";
             } else if (hour >= 6 && hour <= 11) {
@@ -120,7 +119,7 @@
                     "Good morning, Joseph. Did you sleep well?";
             } else if (hour >= 12 && hour <= 21) {
                 document.getElementById("greeting").innerHTML = 
-                    "Good afternoon, Joseph. Let's get some work done today.";
+                    "Good afternoon, Joseph. Do your best today. I believe in you!";
             }
 		</script>
 	</body>
