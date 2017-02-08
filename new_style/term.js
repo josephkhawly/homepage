@@ -219,6 +219,15 @@ function help(input) {
     print(printStr)
 
     printStr = ""
+    if (typeof social != "undefined" && social.length > 0) {
+        fancyRender("social", "lightgray")
+        for (var i=0; i<social.length; i++) {
+            printStr +=  "> " +(social[i][0]) + " ";
+        }
+    }
+    print(printStr)
+
+    printStr = ""
     if (typeof fileFunctions != "undefined" && fileFunctions.length > 0) {
         fancyRender("i/o", "lightgray")
         for (var i=0; i<fileFunctions.length; i++) {

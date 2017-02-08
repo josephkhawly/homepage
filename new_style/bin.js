@@ -39,13 +39,39 @@ function hook(str, args) {
 
     //and now check for bookmarks
     if (typeof bookmarks != "undefined" && bookmarks.length > 0) {
-        for (var i=0; i<bookmarks.length; i++) {
+        for (var i = 0; i < bookmarks.length; i++) {
             if(bookmarks[i][0] === str) {
                 loadURL(bookmarks[i][1])
                 return true;
             }
         }
+    }
 
+    if (typeof uni != "undefined" && uni.length > 0) {
+        for (var i = 0; i < uni.length; i++) {
+            if(uni[i][0] === str) {
+                loadURL(uni[i][1])
+                return true;
+            }
+        }
+    }
+
+    if (typeof tech != "undefined" && tech.length > 0) {
+        for (var i = 0; i < tech.length; i++) {
+            if(tech[i][0] === str) {
+                loadURL(tech[i][1])
+                return true;
+            }
+        }
+    }
+
+    if (typeof social != "undefined" && social.length > 0) {
+        for (var i = 0; i < social.length; i++) {
+            if(social[i][0] === str) {
+                loadURL(social[i][1])
+                return true;
+            }
+        }
     }
 
     //regex for dice matching, either straight or with a modifier (+x)
@@ -99,7 +125,7 @@ var hookCommands = [
 
 var bookmarks = [
     ['inbox', 'http://www.inbox.google.com/'],
-    ['408', "https://www.reddit.com/r/listentothis/"],
+    ['cal', "http://www.calendar.google.com/"],
     ['netflix', 'https://netflix.com/'],
     ['music', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
     ['trello', 'https://trello.com/'],
@@ -121,7 +147,7 @@ var social = [
     ['fb', 'http://www.facebook.com/'],
     ['twitter', "https://www.twitter.com/"],
     ['linkedin', 'https://linkedin.com/in/josephkhawly'],
-    ['groupme', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
+    ['groupme', 'https://app.groupme.com/'],
     ['messenger', 'https://messenger.com/'],
 ]
 
