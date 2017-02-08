@@ -98,11 +98,31 @@ var hookCommands = [
 ];
 
 var bookmarks = [
-    ['cstheory', 'http://www.cs.columbia.edu/~aho/cs3261/'],
-    ['listentothis', "https://www.reddit.com/r/listentothis/"],
-    ['pawprint', 'https://pawprtprodmprt1.cuit.columbia.edu/myprintcenter/'],
-    ['play', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
-    ['spotify', 'https://play.spotify.com/collection/songs'],
+    ['inbox', 'http://www.inbox.google.com/'],
+    ['408', "https://www.reddit.com/r/listentothis/"],
+    ['netflix', 'https://netflix.com/'],
+    ['music', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
+    ['trello', 'https://trello.com/'],
+]
+
+var tech = [
+    ['github', 'http://www.github.com/'],
+]
+
+var uni = [
+    ['307', 'http://courses.cs.purdue.edu/cs30700:spring17:start'],
+    ['408', "https://www.cs.purdue.edu/homes/suresh/408-Spring2017/index.htm"],
+    ['bb', 'https://mycourses.purdue.edu/'],
+    ['unimail', 'https://outlook.office.com/'],
+    ['mypurdue', 'https://wl.mypurdue.purdue.edu/'],
+]
+
+var social = [
+    ['fb', 'http://www.facebook.com/'],
+    ['twitter', "https://www.twitter.com/"],
+    ['linkedin', 'https://linkedin.com/in/josephkhawly'],
+    ['groupme', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
+    ['messenger', 'https://messenger.com/'],
 ]
 
 function name(str) {

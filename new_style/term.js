@@ -210,6 +210,15 @@ function help(input) {
     print(printStr)
 
     printStr = ""
+    if (typeof uni != "undefined" && uni.length > 0) {
+        fancyRender("uni", "lightgray")
+        for (var i=0; i<uni.length; i++) {
+            printStr +=  "> " +(uni[i][0]) + " ";
+        }
+    }
+    print(printStr)
+
+    printStr = ""
     if (typeof fileFunctions != "undefined" && fileFunctions.length > 0) {
         fancyRender("i/o", "lightgray")
         for (var i=0; i<fileFunctions.length; i++) {
@@ -248,19 +257,7 @@ function ls(input) {
         }
         return;
     }
-
-    if(input.slice(input.length - 2, input.length) + "" === "-f") {
-        if ($.isEmptyObject(files)) {
-            print("No files here.")
-            return
-        }
-        fancyRender("files", "lightgray")
-        for(var prop in files) {
-            print(prop)
-        }
-        return;
-    }
-    help(input)
+    help(input);
 }
 
 function echo(args) {
