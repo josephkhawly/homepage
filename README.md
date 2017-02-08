@@ -1,5 +1,4 @@
 # homepage
-![screenshot](https://raw.githubusercontent.com/josephkhawly/homepage/master/screenshot.png)
 This is a replacement for the default startpage in Chrome and Firefox. Feel free to clone or fork it and adjust it to your liking by adding/removing links and changing the background, fonts and colors.
 
 This can also be found in the homepage folder of [my website's repo](https://github.com/josephkhawly/personal-site).
@@ -7,6 +6,8 @@ This can also be found in the homepage folder of [my website's repo](https://git
 The text at the top will change depending on the time of day.
 
 Check out a live demo [here](http://josephkhawly.com/homepage).
+
+![screenshot](https://raw.githubusercontent.com/josephkhawly/homepage/master/screenshot.png)
 
 Inside the new_style folder is a completely new terminal-style homepage based on [this](https://github.com/xprmt/xprmt.github.io).
 
