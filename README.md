@@ -7,9 +7,9 @@ The text at the top will change depending on the time of day.
 
 Check out a live demo [here](http://josephkhawly.com/homepage).
 
-![screenshot](https://raw.githubusercontent.com/josephkhawly/homepage/master/screenshot.png)
+Inside the new_style branch is a completely new terminal-style homepage based on [this](https://github.com/xprmt/xprmt.github.io).
 
-Inside the new_style folder is a completely new terminal-style homepage based on [this](https://github.com/xprmt/xprmt.github.io).
+![screenshot](https://raw.githubusercontent.com/josephkhawly/homepage/master/screenshot.png)
 
 # Setup
 ## Chrome
