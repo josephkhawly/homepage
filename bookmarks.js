@@ -15,6 +15,7 @@ var bookmarks = [
     ['drive', "https://drive.google.com/"],
     ['yt', 'https://youtube.com/feed/subscriptions'],
     ['netflix', 'https://netflix.com/'],
+    ['amazon', 'https://amazon.com/'],
     ['music', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
     ['trello', 'https://trello.com/'],
 ]
@@ -30,7 +31,8 @@ var uni = [
     ['bb', 'https://mycourses.purdue.edu/'],
     ['unimail', 'https://outlook.office.com/'],
     ['mypurdue', 'https://wl.mypurdue.purdue.edu/'],
-    ['dining', 'https://dining.purdue.edu/menus']
+    ['dining', 'https://dining.purdue.edu/menus'],
+    ['piazza', 'https://piazza.com/']
 ]
 
 var social = [
