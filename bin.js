@@ -2,7 +2,6 @@
 $(document).ready(function() {weather()});
 
 //==================== CHALLENGE COMMANDS ==========================
-
 function name(str) {
     setName(str)
 }
