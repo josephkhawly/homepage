@@ -26,7 +26,7 @@ var tech = [
 ]
 
 var uni = [
-    ['307', 'https://courses.cs.purdue.edu/cs30700:spring17:start'],
+    ['348', 'https://www.cs.purdue.edu/homes/aref/Fall2017CS348/index.html'],
     ['408', "https://www.cs.purdue.edu/homes/suresh/408-Spring2017/index.htm"],
     ['bb', 'https://mycourses.purdue.edu/'],
     ['unimail', 'https://outlook.office.com/'],
