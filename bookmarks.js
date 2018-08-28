@@ -15,7 +15,9 @@ var bookmarks = [
     ['drive', "https://drive.google.com/"],
     ['yt', 'https://youtube.com/feed/subscriptions'],
     ['netflix', 'https://netflix.com/'],
+    ['plex', 'https://app.plex.tv'],
     ['amazon', 'https://amazon.com/'],
+    ['amazon-jp', 'https://amazon.co.jp/'],
     ['music', 'https://play.google.com/music/listen?hl=en&u=0#/wmp'],
     ['trello', 'https://trello.com/'],
 ]
@@ -26,8 +28,6 @@ var tech = [
 ]
 
 var uni = [
-    ['348', 'https://www.cs.purdue.edu/homes/aref/Fall2017CS348/index.html'],
-    ['408', "https://www.cs.purdue.edu/homes/suresh/408-Spring2017/index.htm"],
     ['bb', 'https://mycourses.purdue.edu/'],
     ['unimail', 'https://outlook.office.com/'],
     ['mypurdue', 'https://wl.mypurdue.purdue.edu/'],
